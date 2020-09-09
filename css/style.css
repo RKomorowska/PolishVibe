@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+.logo-main {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 135px;
+    height: 80px;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+.section-main-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.main-pic img {
+    height: 250px;
+    width: 1000px;
+}
+
+.nav-header {
+    width: 1000px;
+    margin-left: 60px;
+}
+
+.nav-header ul {
+    list-style: none;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin-top: 90px;
+    margin-left: 0;
+  }
+
+
+
+  a {
+      color: black;
+      font-size: 14px;
+      font-weight: 600;
+  }
+
+
+  .last-element-list {
+    color: red;
+}
+
+
+  .main-inscription h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .top-content {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .small-top-boxes {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    width: 900px;
+    justify-self: center;
+  }
+
+  .small-top-boxes-one,
+  .small-top-boxes-two,
+  .small-top-boxes-three {
+      width: 200px;
+      height: 150px;
+      border: 1px solid black;
+      border-radius: 50px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+
+  }
+
+  .small-top-boxes-two img {
+    width: 200px;
+    height: 150px;
+  }
+
