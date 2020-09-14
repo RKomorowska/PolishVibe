@@ -24,13 +24,13 @@
 .languages-eng img{
   height: 30px;
   width: 30px;
-  
+  margin-left: 8px;
 }
 
 .languages-es img{
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  
 }
 
 .logo-main {
@@ -48,10 +48,11 @@
 .logo-subtitle {
   font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 13px;
+    font-weight: 600;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
+    color: red;
 }
 
 .section-main-pic {
@@ -85,7 +86,7 @@
     text-transform: uppercase;
     color: black;
     text-decoration: none;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-left: 0;
     padding: 0;
   }
@@ -94,10 +95,13 @@
 
   a {
       color: black;
-      font-size: 14px;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 600;
   }
 
+  a:hover {
+    color: red;
+  }
 
   .last-element-list {
     
@@ -169,10 +173,10 @@
   .small-top-boxes-one,
   .small-top-boxes-three {
     margin-top: 40px;
- /*   border: 1px solid black;
-    border-radius: 50%; */
+    border-bottom: 1px solid black;
+   
     width: 250px;
-    height: 230px;
+    height: 180px;
     padding: 10px;
 
   }
@@ -257,18 +261,18 @@
     font-weight: 700;
   }
 
-  .upper-main-second img {
+  .upper-main-second {
     width: 280px;
     height: 220px;
-    
+    background-image: url("../assets/AdobeStock_307184379.jpeg");
+    background-size: cover;
+    background-position-x: -100px;
     
   }
   .upper-main-second {
     width: 290px;
     height: 290px;
-    
     border: 2px solid black;
-    
   }
 
   .upper-main-third p {
@@ -283,8 +287,16 @@
     font-weight: 700;
   }
 
-  .bottom-main-second {
-    
+  .upper-main-first:hover {
+    transform: scale(1.3);
+  }
+
+  .upper-main-third:hover {
+    transform: scale(1.3);
+  }
+
+  .bottom-main-second:hover {
+    transform: scale(1.3);
   }
 
   .bottom-main-first {
@@ -295,23 +307,26 @@
     
   }
 
-  .bottom-main-first img {
-    width: 280px;
-    height: 220px;
-    
+  .bottom-main-first {
+    width: 290px;
+    height: 290px;
+    background-image: url("../assets/AdobeStock_225142811.jpeg");
+    background-size: cover;
+    background-position-x: -70px;
   }
 
   .bottom-main-third {
     width: 290px;
     height: 290px;
-    
     border: 2px solid black;
   }
 
-  .bottom-main-third img {
-    width: 280px;
-    height: 220px;
-    
+
+  .bottom-main-third {
+    width: 290px;
+    height: 290px;
+    background-image: url("../assets/AdobeStock_307395094.jpeg");
+    background-size: cover;
   }
 
 
