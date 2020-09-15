@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/contact.css" rel="stylesheet" type="text/css" />
-    <script src="scripts.js"></script>
-    <title>Kontakt</title>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $("html").on("submit","#contact_form",function(e){
+    e.preventDefault();
+    $("#send_form_status").html('').hide();
+    var data=$("#contact_form").serialize();
+    $.post("/send_form.php",data,function(res){
+      $("#send_form_status").html(res.msg).show();
+      if(res.status==1){ 
+        $("#contact_form")[0].reset();
+      } 
+    });
+  });
+});
+</script>
+    <title>PolishVibe</title>
 </head>
 <body>
 
@@ -15,24 +31,19 @@
         <div class="logo-subtitle">język polski dla cudzoziemców</div>
 
    
-    <div class="wrapper">
-        <h2>Skontaktuj się z nami</h2>
-        <div id="error_message"></div>
-        <form id="myform" onsubmit="return validate();">
-          <div class="input_field">
-              <input type="text" placeholder="Imię i Nazwisko" id="name">
-          </div>
-          <div class="input_field">
-              <input type="text" placeholder="Adres Email" id="email">
-          </div>
-          <div class="input_field">
-              <textarea placeholder="Wiadomość" id="message"></textarea>
-          </div>
-          <div class="btn">
-              <input type="submit">
-          </div>
+        <h2>Formularz kontaktowy</h2>
+        <div id="send_form_status"></div>
+        <form method="post" action="/send_form.php" id="contact_form">
+             <div><label for="name">Imię i nazwisko</label></div>
+             <div><input type="text" name="name" id="name" class="formField" /></div>
+             <div><label for="phone">Numer telefonu</label></div>
+             <div><input type="text" name="phone" id="phone" class="formField" /></div>
+             <div><label for="email">Adres email</label></div>
+             <div><input type="text" name="email" id="email" class="formField" /></div>
+             <div><label for="message">Treść wiadomości</label></div>
+             <div><textarea name="message" id="message" class="formField"></textarea></div>
+             <div><button id="sendBtn">Wyślij</button></div>
         </form>
-      </div>
       
 </body>
 </html>
