@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/contact.css" rel="stylesheet" type="text/css" />
+    <script src="scripts.js"></script>
+    <title>Kontakt</title>
+</head>
+<body>
+
+    <section class="logo-main">
+        <div class="logo"><img src="assets/LOGO POLISH VIBE - JPG.jpg"></div>
+        </section>
+        <div class="logo-subtitle">język polski dla cudzoziemców</div>
+
+   
+    <div class="wrapper">
+        <h2>Skontaktuj się z nami</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Imię i Nazwisko" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Adres Email" id="email">
+          </div>
+          <div class="input_field">
+              <textarea placeholder="Wiadomość" id="message"></textarea>
+          </div>
+          <div class="btn">
+              <input type="submit">
+          </div>
+        </form>
+      </div>
+      
+</body>
+</html>
