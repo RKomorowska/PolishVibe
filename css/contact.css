@@ -31,9 +31,63 @@ font-family: 'Open Sans', sans-serif;
   margin-bottom: 50px;
 }
 
-.formField{font: inherit; border: 1px solid #ccc; border-radius: 3px; margin: 3px 0 10px 0; padding: 3px 0}
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.form-box {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+}
+
+#message {
+  width: 350px;
+  height: 250px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+#sendBtn {
+  font-size: 18px;
+  padding-top: 10px;
+  color: black;
+  background-color: rgb(226, 223, 223);
+  cursor: pointer;
+}
+
+#send_form_status{display: none; padding: 0 10px; margin: 10px 0}
+.status_ok{color: #F00}
+.status_err{color: #F00};
+
+/*
+.formField{font: 'Josefin Sans', sans-serif; border: 1px solid #ccc; border-radius: 3px; margin: 3px 0 10px 0; padding: 3px 0}
 textarea.formField{width: 300px; height: 70px}
 #sendBtn{cursor:pointer;background: #ccc; background: linear-gradient(#ddd 0, #eee 100%); border: 1px solid #ccc; line-height: 32px; font-size: 14px;padding: 0 25px; border-radius: 3px}
 #send_form_status{border: 1px dashed #ccc;display: none; padding: 0 10px; margin: 10px 0}
 .status_ok{color: #060}
 .status_err{color: #F00};
+*/
