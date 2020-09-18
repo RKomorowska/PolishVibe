@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 50px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 300px;
+    text-align: justify;
+}

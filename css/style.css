@@ -103,10 +103,6 @@
     color: red;
   }
 
-  .last-element-list {
-    
-}
-
 
   .main-inscription h1 {
     font-family: 'Open Sans', sans-serif;
@@ -361,4 +357,11 @@
     width: 1000px;
     border-top: 2px solid black;
  
+  }
+
+  .footer-one {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
   }
