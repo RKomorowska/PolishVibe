@@ -6,8 +6,8 @@
 }
 
 .logo img {
-    width: 135px;
-    height: 80px;
+    width: 175px;
+    height: 110px;
     margin-top: 30px;
     border-bottom: 2px solid black;
 }
@@ -15,7 +15,7 @@
 .logo-subtitle {
     font-family: 'Open Sans', sans-serif;
       text-transform: uppercase;
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 600;
       text-align: center;
       margin-top: 5px;
@@ -31,12 +31,12 @@
 .courses-online {
     width: 600px;
     height: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; 
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 34px;
     margin-top: 190px;
 }
 
@@ -54,9 +54,10 @@
 }
 
 .upper-box-one {
-    height: 200px;
-    width: 450px;
-    
+    height: 250px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
     margin-right: 30px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -64,17 +65,18 @@
     font-weight: 400;
     font-size: 16px;
     margin-top: 50px;
+   
 }
 
 .upper-box-one h3 {
     font-weight: 600;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .upper-box-one p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
@@ -83,6 +85,7 @@
 .upper-box-two {
     height: 310px;
     width: 250px;
+    border-radius: 20px;
     background-image: url("../assets/AdobeStock_232079571.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,17 +96,19 @@
 .bottom-box-one {
     width: 300px;
     height: 250px;
+    border-radius: 20px;
     background-image: url("../assets/AdobeStock_352601877.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid black;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 
 .bottom-box-two {
-    width: 410px;
-    height: 230px;
-    
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
     margin-left: 30px;
     margin-top: -40px;
     font-family: 'Open Sans', sans-serif;
@@ -117,14 +122,14 @@
 
 .bottom-box-two h3 {
     font-weight: 600;
-    font-size: 16px;
-    margin-top: 35px;
+    font-size: 20px;
+    margin-top: 40px;
     color: red;
 }
 
 .bottom-box-two p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px;

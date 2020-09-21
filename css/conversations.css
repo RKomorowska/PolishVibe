@@ -6,8 +6,8 @@
 }
 
 .logo img {
-    width: 135px;
-    height: 80px;
+    width: 175px;
+    height: 110px;
     margin-top: 30px;
     border-bottom: 2px solid black;
 }
@@ -15,7 +15,7 @@
 .logo-subtitle {
     font-family: 'Open Sans', sans-serif;
       text-transform: uppercase;
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 600;
       text-align: center;
       margin-top: 5px;
@@ -36,7 +36,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 34px;
     margin-top: 180px;
 }
 
@@ -62,20 +62,20 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 100px;
 }
 
 .upper-box-one h3 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 35px;
     color: red;
 }
 
 .upper-box-one p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
@@ -83,13 +83,13 @@
 
 .upper-box-two h3 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 35px;
 }
 
 .upper-box-two p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
@@ -104,7 +104,7 @@
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    margin-top: -10px;
+    margin-top: 20px;
    
 }
 
@@ -123,18 +123,20 @@
 
 .bottom-box-two h3 {
     font-weight: 600;
-    font-size: 16px;
-    margin-top: 60px;
+    font-size: 20px;
+    margin-top: 90px;
    
 }
 
 .upper-pic {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-image: url("../assets/AdobeStock_307395094.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
