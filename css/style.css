@@ -39,8 +39,8 @@
 }
 
 .logo img {
-    width: 135px;
-    height: 80px;
+    width: 175px;
+    height: 110px;
     margin-top: 30px;
     border-bottom: 2px solid black;
 }
@@ -48,7 +48,7 @@
 .logo-subtitle {
   font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
     margin-top: 5px;
@@ -61,8 +61,9 @@
 }
 
 .main-pic img {
-    height: 250px;
-    width: 1050px;
+    height: 350px;
+    width: 1350px;
+    border-radius: 20px;
 }
 
 .menu-container {
@@ -71,13 +72,13 @@
 }
 
 .nav-header {
-    width: 1000px;
+    width: 1200px;
     margin-top: 50px;
 }
 
 .nav-header ul {
     list-style: none;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
     justify-self: center;
@@ -87,16 +88,16 @@
     color: black;
     text-decoration: none;
     margin-top: 100px;
-    margin-left: 0;
-    padding: 0;
+   padding: 0;
   }
 
 
 
   a {
       color: black;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 20px;
+      font-weight: 700;
+    
   }
 
   a:hover {
@@ -108,8 +109,8 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     color: black;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     text-align: center;
     margin-top: 70px;
   }
@@ -132,11 +133,11 @@
   .small-top-boxes-two,
   .small-top-boxes-three {
       width: 220px;
-      height: 180px;
+      height: 250px;
     /*  border: 3px solid black;
       border-radius: 50%; */
       font-family: 'Open Sans', sans-serif;
-      font-size: 12px;
+      font-size: 18px;
       text-transform: uppercase;
       font-weight: 600;
       text-align: center;
@@ -161,37 +162,35 @@
   }
 
   .small-top-boxes-two p {
-    font-size: 18px;
+    font-size: 24px;
     color: red;
     margin-top: 45px;
   }
 
   .small-top-boxes-one,
   .small-top-boxes-three {
-    margin-top: 40px;
-    border-bottom: 1px solid black;
-   
+    margin-top: 40px; 
     width: 250px;
-    height: 180px;
+    height: 230px;
     padding: 10px;
 
   }
 
   .small-top-boxes-one p {
     font-weight: 800;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 35px;
-
+    margin-bottom: 40px;
   }
 
   .small-top-boxes-three {
     color: black;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .small-top-boxes-three h6 {
     font-weight: 800;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     margin: 0;
     margin-top: 30px;
@@ -201,9 +200,10 @@
 
   .small-top-boxes-three p {
     font-weight: 800;
-    font-size: 14px;
+    font-size: 18px;
     color: black;
-    
+   line-height: 30px; 
+  
   }
 
 
@@ -222,7 +222,7 @@
     border: 1px solid black;
     margin: 10px;
     font-family: 'Open Sans', sans-serif;
-      font-size: 12px;
+      font-size: 18px;
       text-transform: uppercase;
       font-weight: 600;
       text-align: center;
@@ -252,8 +252,8 @@
   }
 
   .upper-main-first p {
-    margin: 50px 25px;
-    font-size: 12px;
+    margin: 27px 15px;
+    font-size: 16px;
     font-weight: 700;
   }
 
@@ -272,14 +272,14 @@
   }
 
   .upper-main-third p {
-    margin: 50px 20px;
-    font-size: 12px;
+    margin: 13px 5px;
+    font-size: 16px;
     font-weight: 700;
   }
 
   .bottom-main-second p {
-    margin: 70px 25px;
-    font-size: 12px;
+    margin: 30px 15px;
+    font-size: 16px;
     font-weight: 700;
   }
 
@@ -356,7 +356,6 @@
     
     width: 1000px;
     border-top: 2px solid black;
- 
   }
 
   .footer-one {
