@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+/*menu*/
 
+.menu-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-header {
+      width: 1200px;
+      margin-top: 10px;
+  }
+  
+  .nav-header ul {
+      list-style: none;
+      width: 1200px;
+      display: flex;
+      justify-content: space-around;
+      justify-self: center;
+      align-items: center; 
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      color: black;
+      text-decoration: none;
+      padding: 0;
+      margin-bottom: 50px;
+    }
+  
+    a {
+        color: black;
+        font-size: 16px;
+        font-weight: 700;
+    }
+  
+    a:hover {
+      color: red;
+    }
+
+    /*menu*/
+    
 .logo-main {
     display: flex;
     justify-content: center;
