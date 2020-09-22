@@ -11,7 +11,7 @@ if($name && $email && $message){
  $message_body.="Adres email: $email\n";
  /*$message_body.="Numer telefonu: $phone\n\n"; */
  $message_body.=$message;
- if(mail("polishinvibe@gmail.com","Formularz kontaktowy",$message_body,$headers)){
+ if(mail("kontakt@polishvibe.pl","Formularz kontaktowy",$message_body,$headers)){
  $json=array("status"=>1,"msg"=>"<p class='status_ok'>Thank you! We will contact you soon :)</p>");
  }
  else{
