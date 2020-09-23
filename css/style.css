@@ -358,7 +358,8 @@
     border-top: 2px solid black;
   }
 
-  .footer-one {
+  .footer-one,
+  .footer-two {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
       font-size: 14px;

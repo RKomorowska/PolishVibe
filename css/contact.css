@@ -128,3 +128,25 @@ textarea.formField{width: 300px; height: 70px}
 .status_ok{color: #060}
 .status_err{color: #F00};
 */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  height: 200px;
+  margin-top: 300px;
+  
+  width: 1000px;
+  border-top: 2px solid black;
+}
+
+.footer-one,
+.footer-two {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
