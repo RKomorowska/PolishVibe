@@ -18,7 +18,7 @@
   display: flex;
   justify-self: center;
   justify-content: flex-end;
-  margin-right: 220px;
+
 }
 
 .languages-eng img{
@@ -30,7 +30,14 @@
 .languages-es img{
   height: 30px;
   width: 30px;
-  
+  margin-left: 8px;
+}
+
+.languages-pl img{
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  border-radius: 50px;
 }
 
 .logo-main {
@@ -104,6 +111,8 @@
     color: red;
   }
 
+
+ 
 
   .main-inscription h1 {
     font-family: 'Open Sans', sans-serif;

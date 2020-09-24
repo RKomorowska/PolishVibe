@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.languages-container {
+  
+    height: 30px;
+    display: flex;
+    justify-self: center;
+    justify-content: flex-end;
+  
+  }
+  
+  .languages-eng img{
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+  }
+  
+  .languages-es img{
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+  }
+  
+  .languages-pl img{
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+    border-radius: 50px;
+  }
+
 /*menu*/
 
 .menu-container {
@@ -57,7 +86,7 @@
       font-weight: 600;
       text-align: center;
       margin-top: 5px;
-      color: red;
+      color: black;
   }
 
 .section-title {
