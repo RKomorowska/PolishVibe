@@ -28,6 +28,11 @@
   border-radius: 50px;
 }
 
+@media (max-width: 500px) {
+  .languages-container {
+    margin-right: 20px;
+  }
+}
 /*menu*/
 
 .menu-container {
@@ -53,6 +58,13 @@
     text-decoration: none;
     padding: 0;
     margin-bottom: 50px;
+  }
+
+  @media (max-width: 500px) {
+    .nav-header ul {
+      font-size: 10px;
+      flex-direction: column;
+    }
   }
 
   a {
@@ -178,4 +190,12 @@ footer {
   font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    width: 450px;
+    font-size: 12px;
+    margin-top: 100px;
+  }
 }

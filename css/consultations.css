@@ -28,6 +28,11 @@
     border-radius: 50px;
   }
 
+  @media (max-width: 500px) {
+    .languages-container {
+      margin-right: 20px;
+    }
+  }
 /*menu*/
 
 .menu-container {
@@ -54,6 +59,13 @@
       padding: 0;
       margin-bottom: 50px;
     }
+
+    @media (max-width: 500px) {
+        .nav-header ul {
+          font-size: 10px;
+          flex-direction: column;
+        }
+      }
   
     a {
         color: black;
@@ -108,6 +120,13 @@
     font-size: 34px;
     margin-top: 190px;
 }
+
+@media (max-width: 500px) {
+    .courses-online {
+        width: 400px;
+        height: 100px;
+    }
+  }
 
 .upper-boxes {
     margin-top: 100px;
@@ -204,6 +223,45 @@
     margin-right: 25px;
 }
 
+@media (max-width: 500px) {
+    .upper-boxes {
+       flex-direction: column;
+       align-items: center;
+       height: 800px;
+       margin-top: 50px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom-boxes {
+        flex-direction: column;
+        align-items: center;
+        height: 590px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .upper-box-one {
+        width: 400px;
+        height: 280px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom-box-one {
+        margin-bottom: 70px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom-box-two {
+        margin-left: 0;
+    }
+  }
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -223,4 +281,12 @@ footer {
     font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       font-weight: 700;
+  }
+
+  @media (max-width: 500px) {
+    .footer {
+      width: 400px;
+      font-size: 12px;
+      margin-top: 100px;
+    }
   }
