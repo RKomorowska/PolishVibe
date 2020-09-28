@@ -25,12 +25,16 @@
   height: 30px;
   width: 30px;
   margin-left: 8px;
+  border-radius: 50%;
+  border: 2px solid red;
 }
 
 .languages-es img{
   height: 30px;
   width: 30px;
   margin-left: 8px;
+  border-radius: 50%;
+  border: 2px solid red;
 }
 
 .languages-pl img{
@@ -38,6 +42,7 @@
   width: 30px;
   margin-left: 8px;
   border-radius: 50px;
+  border: 2px solid red;
 }
 
 @media (max-width: 500px) {
@@ -342,6 +347,12 @@
     border: 2px solid black;
   }
 
+  @media (max-width: 500px) {
+    .upper-main-second {
+      height: 310px;
+    }
+  }
+
   .upper-main-third p {
     margin: 13px 5px;
     font-size: 16px;
@@ -394,6 +405,12 @@
     height: 290px;
     background-image: url("../assets/AdobeStock_307395094.jpeg");
     background-size: cover;
+  }
+
+  @media (max-width: 500px) {
+    .bottom-main-third {
+      height: 270px;
+    }
   }
 
 

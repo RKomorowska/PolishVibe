@@ -13,12 +13,16 @@
     height: 30px;
     width: 30px;
     margin-left: 8px;
+    border-radius: 50%;
+    border: 2px solid red;
   }
   
   .languages-es img{
     height: 30px;
     width: 30px;
     margin-left: 8px;
+    border-radius: 50%;
+    border: 2px solid red;
   }
   
   .languages-pl img{
@@ -26,6 +30,7 @@
     width: 30px;
     margin-left: 8px;
     border-radius: 50px;
+    border: 2px solid red;
   }
 
   @media (max-width: 500px) {
@@ -121,6 +126,39 @@
     font-size: 34px;
     margin-top: 180px;
 }
+
+
+/* register button*/
+
+.register-button {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .register-button  {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .register-button button  {
+    height: 60px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+  }
+}
+
+/* register button*/
 
 .upper-boxes {
     margin-top: 70px;
@@ -236,27 +274,44 @@
   @media (max-width: 500px) {
     .bottom-boxes {
       flex-direction: column;
+      height: 460px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom-boxes p {
+      margin-bottom: 20px;
     }
   }
 
   @media (max-width: 500px) {
     .upper-box-one {
-        margin-left: 0px;
-        width: 430px;
+        margin-left: 15px;
+        width: 300px;
+        height: 380px;
     }
   }
 
   @media (max-width: 500px) {
     .upper-pic {
-      margin-left: 40px;
+      width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
     }
   }
 
   @media (max-width: 500px) {
     .upper-box-two {
-      width: 400px;
-      height: 360px;
-      margin-left: 10px;
+      margin-left: 15px;
+        width: 290px;
+        height: 490px;
+        margin-top: 50px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .upper-box-two h3 {
+        margin-top: 20px;
     }
   }
 
@@ -285,6 +340,6 @@ footer {
     .footer {
       width: 400px;
       font-size: 12px;
-      margin-top: 100px;
+      margin-top: 150px;
     }
   }

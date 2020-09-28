@@ -6,26 +6,30 @@
     display: flex;
     justify-self: center;
     justify-content: flex-end;
-  
   }
   
   .languages-eng img{
     height: 30px;
     width: 30px;
     margin-left: 8px;
+    border-radius: 50%;
+    border: 2px solid red;
   }
   
   .languages-es img{
     height: 30px;
     width: 30px;
     margin-left: 8px;
+    border-radius: 50%;
+    border: 2px solid red;
   }
   
   .languages-pl img{
     height: 30px;
     width: 30px;
     margin-left: 8px;
-    border-radius: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
   }
 
   @media (max-width: 500px) {
@@ -128,6 +132,38 @@
     }
   }
 
+  /* register button*/
+
+  .register-button {
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+    .register-button  {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .register-button button  {
+      height: 60px;
+      width: 170px;
+      background-color: white;
+      border: 2px solid red;
+      border-radius: 40px;
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+  }
+
+  /* register button*/
+  
 .upper-boxes {
     margin-top: 100px;
     height: 400px;
@@ -242,22 +278,31 @@
 
   @media (max-width: 500px) {
     .upper-box-one {
-        width: 400px;
-        height: 280px;
-        margin-left: 10px;
+        width: 300px;
+        height: 360px;
+        margin-left: 25px;
         margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .upper-box-two {
+        margin-bottom: 60px;
     }
   }
 
   @media (max-width: 500px) {
     .bottom-box-one {
         margin-bottom: 70px;
+        width: 300px;
     }
   }
 
   @media (max-width: 500px) {
     .bottom-box-two {
         margin-left: 0;
+        width: 300px;
+        height: 430px;
     }
   }
 
