@@ -150,8 +150,8 @@
 
   @media (max-width: 500px) {
     .register-button button  {
-      height: 60px;
-      width: 170px;
+      height: 70px;
+      width: 240px;
       background-color: white;
       border: 2px solid red;
       border-radius: 40px;
@@ -326,6 +326,25 @@ footer {
     font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       font-weight: 700;
+  }
+
+  .footer-three {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .facebook-icon img {
+    height: 58px;
+    width: 58px;
+    background-size: contain;
+    margin-top: 11px;
+  }
+
+  .instagram-icon img {
+    height: 81px;
+    width: 81px;
+    background-size: contain;
+    margin-left: -12px;
   }
 
   @media (max-width: 500px) {

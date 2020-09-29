@@ -86,7 +86,7 @@
 
 .main-pic img {
     height: 350px;
-    width: 1350px;
+    width: 1100px;
     border-radius: 20px;
 }
 
@@ -453,6 +453,26 @@
       font-size: 14px;
       font-weight: 700;
   }
+
+  .footer-three {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .facebook-icon img {
+    height: 58px;
+    width: 58px;
+    background-size: contain;
+    margin-top: 11px;
+  }
+
+  .instagram-icon img {
+    height: 81px;
+    width: 81px;
+    background-size: contain;
+    margin-left: -12px;
+  }
+
 
   @media (max-width: 500px) {
     .footer {
