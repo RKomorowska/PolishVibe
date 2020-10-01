@@ -195,11 +195,16 @@ footer {
   font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .footer-three {
   display: flex;
   margin-top: 15px;
+}
+
+.footer p {
+  margin-top: 20px;
 }
 
 .facebook-icon img {
