@@ -139,7 +139,27 @@
   /* register button*/
 
   .register-button {
-    display: none;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .register-button button  {
+    height: 70px;
+    width: 240px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+  }
+  
+  .register-now a:hover {
+    color: black;
   }
 
   @media (max-width: 500px) {
